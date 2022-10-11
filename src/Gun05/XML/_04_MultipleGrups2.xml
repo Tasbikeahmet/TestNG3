@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit 1">
+    <test name="Test 1">
+        <groups>
+            <run> <!-- Hangi gruplar calisacak-->
+                <include name="SmokeTest"></include>
+                <include name="Regression"></include>
+            </run>
+        </groups>
+        <classes><!--calisacak classlarin yazildigi bolum-->
+            <class name="Gun05._01_Grups"></class>
+        </classes>
+    </test>
+</suite>
